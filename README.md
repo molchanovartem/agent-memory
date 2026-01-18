@@ -1,6 +1,8 @@
-# agent-memory
+# agent-memory-state
 
 Long-term memory management for AI agents. Based on [OpenAI Cookbook's state-based memory pattern](https://cookbook.openai.com/examples/agents_sdk/context_personalization).
+
+**PyPI:** https://pypi.org/project/agent-memory-state/
 
 ## Features
 
@@ -13,10 +15,10 @@ Long-term memory management for AI agents. Based on [OpenAI Cookbook's state-bas
 ## Installation
 
 ```bash
-pip install -e .
+pip install agent-memory-state
 
 # With OpenAI support (for consolidation)
-pip install -e ".[openai]"
+pip install "agent-memory-state[openai]"
 ```
 
 ## Quick Start

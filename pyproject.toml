@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "agent-memory"
+name = "agent-memory-state"
 version = "0.1.0"
 description = "Long-term memory management for AI agents"
 readme = "README.md"
